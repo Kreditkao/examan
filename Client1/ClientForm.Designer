@@ -1,0 +1,191 @@
+namespace WindowsFormsApp2
+{
+    partial class ClientForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.txtUsername = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.txtChat = new System.Windows.Forms.RichTextBox();
+            this.txtMessage = new System.Windows.Forms.TextBox();
+            this.btnSend = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.lstUsers = new System.Windows.Forms.ListBox();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.btnUpload = new System.Windows.Forms.Button();
+            this.btnDownload = new System.Windows.Forms.Button();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Location = new System.Drawing.Point(42, 12);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(103, 20);
+            this.txtUsername.TabIndex = 5;
+            this.txtUsername.Text = "User";
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnLogin.Location = new System.Drawing.Point(335, 14);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(69, 20);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // txtChat
+            // 
+            this.txtChat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtChat.Location = new System.Drawing.Point(17, 45);
+            this.txtChat.Name = "txtChat";
+            this.txtChat.ReadOnly = true;
+            this.txtChat.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.txtChat.Size = new System.Drawing.Size(412, 324);
+            this.txtChat.TabIndex = 3;
+            this.txtChat.Text = "";
+            // 
+            // txtMessage
+            // 
+            this.txtMessage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtMessage.Location = new System.Drawing.Point(100, 379);
+            this.txtMessage.Name = "txtMessage";
+            this.txtMessage.Size = new System.Drawing.Size(260, 20);
+            this.txtMessage.TabIndex = 2;
+            // 
+            // btnSend
+            // 
+            this.btnSend.BackColor = System.Drawing.Color.Lime;
+            this.btnSend.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnSend.Location = new System.Drawing.Point(366, 375);
+            this.btnSend.Name = "btnSend";
+            this.btnSend.Size = new System.Drawing.Size(63, 25);
+            this.btnSend.TabIndex = 1;
+            this.btnSend.Text = "=>";
+            this.btnSend.UseVisualStyleBackColor = false;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.Red;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnExit.Location = new System.Drawing.Point(452, 24);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(120, 23);
+            this.btnExit.TabIndex = 6;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // lstUsers
+            // 
+            this.lstUsers.FormattingEnabled = true;
+            this.lstUsers.Location = new System.Drawing.Point(450, 53);
+            this.lstUsers.Name = "lstUsers";
+            this.lstUsers.Size = new System.Drawing.Size(122, 316);
+            this.lstUsers.TabIndex = 7;
+            // 
+            // btnRegister
+            // 
+            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnRegister.Location = new System.Drawing.Point(260, 14);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(69, 20);
+            this.btnRegister.TabIndex = 8;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            // 
+            // btnUpload
+            // 
+            this.btnUpload.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnUpload.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnUpload.Location = new System.Drawing.Point(18, 375);
+            this.btnUpload.Name = "btnUpload";
+            this.btnUpload.Size = new System.Drawing.Size(76, 25);
+            this.btnUpload.TabIndex = 9;
+            this.btnUpload.Text = "Send File";
+            this.btnUpload.UseVisualStyleBackColor = false;
+            this.btnUpload.Click += new System.EventHandler(this.btnUpload_Click);
+            // 
+            // btnDownload
+            // 
+            this.btnDownload.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnDownload.Location = new System.Drawing.Point(450, 375);
+            this.btnDownload.Name = "btnDownload";
+            this.btnDownload.Size = new System.Drawing.Size(122, 24);
+            this.btnDownload.TabIndex = 10;
+            this.btnDownload.Text = "Download";
+            this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(151, 12);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(103, 20);
+            this.txtPassword.TabIndex = 11;
+            this.txtPassword.Text = "Password";
+            // 
+            // ClientForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SeaGreen;
+            this.ClientSize = new System.Drawing.Size(861, 414);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.btnDownload);
+            this.Controls.Add(this.btnUpload);
+            this.Controls.Add(this.btnRegister);
+            this.Controls.Add(this.lstUsers);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnSend);
+            this.Controls.Add(this.txtMessage);
+            this.Controls.Add(this.txtChat);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.txtUsername);
+            this.Name = "ClientForm";
+            this.Text = "Chat Client";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.RichTextBox txtChat;
+        private System.Windows.Forms.TextBox txtMessage;
+        private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.ListBox lstUsers;
+        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Button btnUpload;
+        private System.Windows.Forms.Button btnDownload;
+        private System.Windows.Forms.TextBox txtPassword;
+    }
+}
+
